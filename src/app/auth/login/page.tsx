@@ -1,8 +1,12 @@
 import { Login } from "@/components/auth/login";
-import { ExtendedFC } from "@/types/react";
+import { Suspense } from "react";
 
-const LoginPage: ExtendedFC = () => {
-  return <Login />;
+const LoginPage = () => {
+  return (
+    <Suspense>
+      <Login />
+    </Suspense>
+  );
 };
 
 export default LoginPage;

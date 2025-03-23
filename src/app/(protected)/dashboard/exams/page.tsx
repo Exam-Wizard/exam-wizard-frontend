@@ -1,7 +1,6 @@
 import { ExamList } from "@/components/dashboard/exams/list";
-import { ExtendedFC } from "@/types/react";
 
-const ExamPage: ExtendedFC = () => {
+const ExamPage = () => {
   return <ExamList />;
 };
 

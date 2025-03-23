@@ -1,7 +1,7 @@
-import { ExtendedFC } from "@/types/react";
+import { TLayout } from "@/types/react";
 import { Dashboard } from "@/components/dashboard/layout";
 
-const DashboardLayout: ExtendedFC = ({ children }) => {
+const DashboardLayout: TLayout = ({ children }) => {
   return <Dashboard>{children}</Dashboard>;
 };
 
